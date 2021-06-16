@@ -1,0 +1,416 @@
+/*applying font on sections below*/
+body .introduction, .services, .under-service-card {
+    
+    font-family: 'Roboto',sans-serif;
+    color: #747474;
+    max-width: 800px;
+    margin: auto;
+    
+}
+/**Applying CSS on navigation Bar*/
+.docplanner-header{
+    
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto',sans-serif;
+    color: #747474;
+    align-items: center;
+    
+    background: hsla(0,0%,100%,.98);
+    width: 100%;
+
+    
+}
+.docplanner-header-is-sticky{
+    
+    position: sticky;
+    z-index: 3; 
+    top: 0;
+    transition: box-shadow .25s ease 0s;
+    
+    
+}
+
+.navigation-menu{
+    font-size: 13px;
+}
+
+.docplanner-logo{
+    height: 45px;
+    width: 230px;
+}
+a {
+    text-decoration: none;
+    color: #747474;
+}
+
+.visited{
+    color: #00b39b;
+    
+}
+.space-between{
+    padding:8px;
+}
+.docplanner-symbole{
+    width: 30px;
+    
+}
+/*dropdown menu*/
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+/*Applying CSS on 1st section*/
+.introduction{
+    
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+   
+.welcome-text{
+    color: #00b39b;
+    font-size: 25px;
+}
+
+.introduction-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.introduction-paragraphe{
+
+    font-size: 12px;
+    line-height: 0.5cm;
+
+}
+/*Applying CSS on 2nd section-Cards*/
+.services{
+    display: flex;
+    color: white;
+    
+    padding-bottom: 75px;
+    justify-content: center;
+
+}
+
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    margin: 8px;
+    border-radius: 8px; 
+
+}
+
+.service-card:hover{
+    opacity: 0.75;
+}
+
+
+
+.service-card-Patient{
+    background-color: #00ccb1;
+    
+}
+.service-card-Doctor{
+    background-color: #3d83df;
+    
+
+}
+.service-card-Clinics{
+    background-color: #1b2734;
+}
+
+.ForWhom{
+    font-size: 26px;
+}
+.ForWhom-doWhat{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.ForWhom-doWhat-select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    padding: 1em 2em 0 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+    
+}
+.select{
+    color: black;
+}
+/*applying CSS on 3rd section*/
+.under-service-card{
+    display: flex;
+    
+    padding-bottom: 30px;
+}
+
+
+.who-we-are-text{
+
+    width: 80%;
+    font-size: 1.6em;
+    margin: .25em 0 .35em;
+    padding-right: 5%;
+    color: #00b39b;
+    
+}
+
+.logo  {
+display: flex;    
+list-style: none;
+flex-wrap: wrap;
+align-items: center;
+font-size: 0;
+width: 67%;
+list-style: none;
+
+    
+}
+.logoWithLinks{
+    filter: grayscale(75%);
+    opacity: 0.75;
+}
+.logoWithLinks:hover{
+    filter: grayscale(0%);
+}
+
+
+.logoWithLinks{
+
+    width: 100px;
+    height: 25px;
+    padding-right: 20px;
+    padding-bottom: 20px;   
+}
+
+/*Applying CSS on 4th section*/
+.informations{
+   
+    background-color: #d9f6f6;
+    height: auto;
+    font-family: 'Roboto',sans-serif;
+    color: #747474 ;
+    
+}
+
+
+.inside-informations-section{
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto;
+    background-image: url(https://www.docplanner.com/img/logo.png );
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: 30px 320px;
+    background-size: 300px;
+}
+.grid{
+   
+    margin-top: 40px;
+    margin: 40px auto;
+    
+}
+
+.stats__header > h1{
+    font-size: 2.125rem;
+    color: #00b39b;   
+}
+.stats__header > p{
+    font-size: 15px;
+}
+
+.information-boxes{
+    display:flex;
+    
+    
+
+}
+.class1{
+    
+    margin-top: 30px;
+    
+}
+.class2{
+    margin-top: 10px;
+    
+}
+.box-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+height: 220px;
+width: 200px;
+border-radius: 8px;
+margin: 10px;
+padding:15px
+
+
+}
+
+/*centering icons inside information boxes*/
+.box-one> img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px ;
+    
+}
+.text-1{
+   font-size: 20px; 
+   text-align: center;
+   color: #00b39b
+}
+.text-2{
+    font-size: .8125em;
+    text-align: center;
+    color:#747474
+}
+/*applying CSS on Section 4 edition-cards*/
+.docplanner-europe{
+    display:flex;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Roboto',sans-serif;
+
+}
+
+.first-paragraphe{
+    text-align: center;
+    
+}
+.first-paragraphe>h3{
+    color: #00b39b;
+}
+.first-paragraphe>p{
+    color: #747474;
+}
+.country-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card{
+    margin: 25px;
+}
+.card-img-top{
+    border-radius: 10px;
+}
+.card-body{
+    margin: 0 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn {
+    
+    border-radius: 4px;
+    padding: 0.8em 1em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.end-paragraphe{
+    display:flex;
+    flex-direction: column;
+   
+
+}
+.end-paragraphe>p{
+  text-align: center;
+    font-family: 'Roboto',sans-serif;
+    color: #4d9bd8;
+    font-size: 25px;
+}
+
+#btn-see{
+    padding:10px;
+    margin:auto;
+
+    width:fit-content;
+
+
+}
+
+footer>p{
+text-align: center;
+font-family: 'Roboto',sans-serif;
+font-size: 12px;
+}
+
+footer>hr{
+    opacity: 0.5;
+}
+
+
+
